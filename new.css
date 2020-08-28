@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    background: rgb(231, 230, 230);
+    background: rgb(236, 236, 236);
 }
 .nav {
 	font-size: 2em;
@@ -25,11 +25,16 @@ a {
 .name{
     margin-top:10px;
     margin-right: auto;
+    cursor: default;
     font-family: 'Montserrat', sans-serif;
 }
 .icon {
     size: 30px;
     color: black;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 section{
     display: flex;
@@ -40,6 +45,7 @@ section{
     margin-left:auto;
     margin-top:15%;
     font-size: 3em;
+    cursor: default;
     font-family: 'Montserrat', sans-serif;
 }
 .dp{
@@ -60,35 +66,75 @@ section{
     padding-right: 100px;
     box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.45);
     font-family: 'Source Sans', sans-serif;
+    cursor: default;
     font-size: 26px;
 }
 .projects{
     height: 100%;
-    background-color: rgb(173, 173, 173);
+    width: 100%;
+    margin-top: 60px;
+    font-family: 'Source Sans', sans-serif;
 }
 .pro{
     display: flex;
     justify-content: center;
+    font-size: 4em;
+    cursor: default;
 }
 .pj{
-    display: flexbox;
-    justify-items: center;
-    width: 1000px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    width: 428px;
+    height: 540px;
+    margin: 40px;
     border-radius: 6px;
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.56);
     background-color: white;
 }
-.pp {
-    max-width: 55%;
-    height: auto;
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-bottom: 40px;
+.pj:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
 }
-.car{
-    
+
+.left { 
+    float:left; 
+    width:425px; 
+    height:540px; 
+    background-color:white; 
+} 
+.center { 
+    float:left; 
+    width:425px; 
+    height:540px; 
+    background-color:white; 
+} 
+.right { 
+    float:left; 
+    width:425px; 
+    height:540px; 
+    background-color:white; 
+}
+.pj-name{
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin-top: 20px;
+    color: black;
+}
+.pj-text{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    background: white;
+    cursor: default;
+}
+.pp {
+    margin: 30px;
+    margin-top: 60px;
+    max-width: 85%;
+    height: auto;
+    border-radius: 5px;
+    cursor: default;
+    text-decoration: none;
+}
+.pic-url{
+    text-decoration: none;
 }
