@@ -72,6 +72,10 @@ section{
 .music{
     color: black;
 }
+.music:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
 .projects{
     height: 100%;
     width: 100%;
