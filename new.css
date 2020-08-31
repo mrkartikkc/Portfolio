@@ -69,6 +69,9 @@ section{
     cursor: default;
     font-size: 26px;
 }
+.music{
+    color: black;
+}
 .projects{
     height: 100%;
     width: 100%;
@@ -128,12 +131,20 @@ section{
 }
 .pp {
     margin: 30px;
-    margin-top: 60px;
     max-width: 85%;
     height: auto;
     border-radius: 5px;
     cursor: default;
     text-decoration: none;
+}
+.one{
+    margin-top:103px;
+}
+.two{
+    margin-top:66px;
+}
+.three{
+    margin-top:123px;
 }
 .pic-url{
     text-decoration: none;
