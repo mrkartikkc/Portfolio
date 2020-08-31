@@ -73,8 +73,8 @@ section{
     color: black;
 }
 .music:hover{
-    transform: scale(1.02);
-    transition: 0.5s;
+    transform: scale(1.09);
+    transition: 0.3s;
 }
 .projects{
     height: 100%;
